@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaoyuan.span.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bullet_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="BulletSpan" />
+
+        <TextView
+            android:id="@+id/quote_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="QuoteSpan" />
+
+        <TextView
+            android:id="@+id/alignment_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="AlignmentSpan" />
+
+        <TextView
+            android:id="@+id/underline_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="UnderlineSpan" />
+
+        <TextView
+            android:id="@+id/strike_through_Span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="StrikethroughSpan" />
+
+        <TextView
+            android:id="@+id/subscript_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="SubscriptSpan" />
+
+        <TextView
+            android:id="@+id/superscript_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="SuperscriptSpan" />
+
+        <TextView
+            android:id="@+id/background_color_Span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="BackgroundColorSpan" />
+
+        <TextView
+            android:id="@+id/foreground_color_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="ForegroundColorSpan" />
+
+        <TextView
+            android:id="@+id/image_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="ImageSpan" />
+
+        <TextView
+            android:id="@+id/style_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="StyleSpan" />
+
+        <TextView
+            android:id="@+id/typeface_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="TypefaceSpan" />
+
+        <TextView
+            android:id="@+id/absolute_size_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="AbsoluteSizeSpan" />
+
+        <TextView
+            android:id="@+id/relative_size_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="RelativeSizeSpan" />
+
+        <TextView
+            android:id="@+id/scale_x_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="ScaleXSpan" />
+
+        <TextView
+            android:id="@+id/mask_filter_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="MaskFilterSpan" />
+
+        <TextView
+            android:id="@+id/url_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="URLSpan" />
+
+        <TextView
+            android:id="@+id/clickable_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="ClickableSpan" />
+
+        <TextView
+            android:id="@+id/text_appearance_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="TextAppearanceSpan" />
+
+        <TextView
+            android:id="@+id/dynamic_drawable_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="DynamicDrawableSpan" />
+    </LinearLayout>
+</ScrollView>
